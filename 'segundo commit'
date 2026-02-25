@@ -9,11 +9,11 @@ print('Suas informações são:' + nome + ' ' + sobrenome + '.' + 'e sua data de
 email=input(nome + '.' + sobrenome + '@' + faculdade + '.' + 'gmail.com')
 
 
-letraa = email.count('A')
-letrae = email.count('E')
-letrai = email.count('I')
-letrao = email.count('O')
-letrau = email.count('U')
+letraa = email.count('a')
+letrae = email.count('e')
+letrai = email.count('i')
+letrao = email.count('o')
+letrau = email.count('u')
 
 senha = 'a' + str(letraa) + 'e' + str(letrae) + 'i' + str(letrai) + 'o' + str(letrao) + 'u' + str(letrau)
 print('Sua senha é:' , senha )
