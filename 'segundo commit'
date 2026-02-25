@@ -1,1 +1,19 @@
+dia=input('Digite o dia de seu nascimento:')
+mes=input('Agora seu mês de nascimento:')
+ano=input('E por fim do ano de seu nascimento:')
 
+faculdade=input('Qual nome de sua faculdade?')
+
+print('Suas informações são:' + nome + ' ' + sobrenome + '.' + 'e sua data de nascimento é' + str(dia) + '/' + str(mes) + '/' + str(ano) + 'da facudade' + ' ' + str(faculdade))
+
+email=input(nome + '.' + sobrenome + '@' + faculdade + '.' + 'gmail.com')
+
+
+letraa = email.count('A')
+letrae = email.count('E')
+letrai = email.count('I')
+letrao = email.count('O')
+letrau = email.count('U')
+
+senha = 'a' + str(letraa) + 'e' + str(letrae) + 'i' + str(letrai) + 'o' + str(letrao) + 'u' + str(letrau)
+print('Sua senha é:' , senha )
